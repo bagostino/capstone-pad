@@ -11,7 +11,8 @@ A 500-row, 13-column transaction dataset spanning one full year (January 2025 th
 - Data inspection and cleaning, including datetime conversion, missing value handling, and verification of categorical labels
 - Visual single factor analysis of revenue drivers and customer segmentation 
 - Group-based analysis across customer segments, product categories, marketing channels, weekday vs. weekend, and the cross-cut of VIP and discount status
-- Relationship analysis using a correlation matrix and two t-tests 
+- Relationship analysis using a correlation matrix and two t-tests
+- Linear regression and then a train/test split
 - Predictive modeling using linear regression to quantify the dollar impact of each variable on revenue
 
 **4. Key Insights**
@@ -27,7 +28,7 @@ A 500-row, 13-column transaction dataset spanning one full year (January 2025 th
 
 **6. Limitations**
 - Single-year dataset; multi-year data would strengthen findings and surface seasonality
-- Linear regression fit without a train/test split
+- Train / test split could be repeated, in more depth and visualized and explored in more detail
 - The VIP designation recommended above requires access to the original criteria used to assign the designation
 - Single year is by far the biggest limitation. The VIP status is likely driven by multi-year relationship, so that needs to be tested on longer time horizon data before throwing out the designation.
 
